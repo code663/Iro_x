@@ -1,5 +1,4 @@
-<h2 align="center">
-    
+
 [![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=WELCOME+TO+Nykaa+MUSIC)](https://github.com/anujkumarroy/Iro_X)
 
 
