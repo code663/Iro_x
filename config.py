@@ -15,45 +15,45 @@ BOT_TOKEN = getenv("BOT_TOKEN",)
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 DURATION_LIMIT_MIN = int(
-    getenv("DURATION_LIMIT", "180")
+    getenv("DURATION_LIMIT", "18000")
 )
 
 SONG_DOWNLOAD_DURATION = int(
-    getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180")
+    getenv("SONG_DOWNLOAD_DURATION_LIMIT", "18000")
 )
 
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID",))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Iro x ᴍᴜsɪᴄ")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "NYKAA MUSIC")
 
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "6045293810").split())
+    map(int, getenv("OWNER_ID", ).split())
 )
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/shaeep043/Iro_x")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/anujkumarroy/Iro_x")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/iro_bot_support")
+    "SUPPORT_CHANNEL", "https://t.me/roy_editx")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/iro_x_support")
+    "SUPPORT_GROUP", "https://t.me/the_friendz")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 
 AUTO_LEAVE_ASSISTANT_TIME = int(
-    getenv("ASSISTANT_LEAVE_TIME", "5400")
+    getenv("ASSISTANT_LEAVE_TIME", "5400000")
 )
 
 AUTO_SUGGESTION_TIME = int(
-    getenv("AUTO_SUGGESTION_TIME", "5400")
+    getenv("AUTO_SUGGESTION_TIME", "540000")
 )
 
 AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", None)
@@ -276,5 +276,5 @@ if TELEGRAM_VIDEO_URL:
 
 if not MUSIC_BOT_NAME.isascii():
     print(
-        "[KYA RE LAVDE] - BOHOT FONT LAGANE KA SHAUKH HAI. JAA PHIR IRO KO APNI CHUMT DEKE AA"
+        "[KYA RE LAVDE] - BOHOT FONT LAGANE KA SHAUKH HAI. JAA PHIR NYKAA KO APNI CHUMT DEKE AA"
     )
