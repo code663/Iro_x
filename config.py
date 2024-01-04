@@ -24,7 +24,7 @@ SONG_DOWNLOAD_DURATION = int(
 
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID",))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "NYKAA MUSIC")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ANGEL MUSIC")
 
 OWNER_ID = list(
     map(int, getenv("OWNER_ID", ).split())
@@ -40,9 +40,9 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/roy_editx")
+    "SUPPORT_CHANNEL", "https://t.me/ANGEL_K_WORLD")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/the_friendz")
+    "SUPPORT_GROUP", "https://t.me/IND_PAWAN")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -114,11 +114,11 @@ confirmer = {}
 
 autoclean = []
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/5fb1d6a6dd6555ff52ad8.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/6305f8a8f31632ac70782.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://te.legra.ph/file/eee5e3d03dbfcf6514595.jpg",
+    "https://telegra.ph/file/d8fce2450fa67c6f3983f.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
