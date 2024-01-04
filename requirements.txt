@@ -20,6 +20,6 @@ speedtest-cli
 spotipy
 tgcrypto
 numpy
-git+https://github.com/yt-dlp/yt-dlp
+yt-dlp==2023.12.30
 youtube-search
 youtube-search-python
