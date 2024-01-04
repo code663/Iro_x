@@ -9,7 +9,7 @@ def start_pannel(_, BOT_USERNAME):
     buttons = [
         [
             InlineKeyboardButton(
-                text="❄️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩ ❄️",
+                text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=new",
             )
         ],
@@ -24,20 +24,16 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="❄️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩ ❄️",
+                text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=new",
             )
         ],
         [
-            InlineKeyboardButton(text="☃˹ꜱᴜᴘᴘᴏʀᴛ˼☃", url=config.SUPPORT_GROUP),
-            InlineKeyboardButton(text="♪˹ᴜᴘᴅᴀᴛᴇꜱ˼♪", url=config.SUPPORT_CHANNEL),
+            InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url=config.SUPPORT_GROUP),
+            InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ", url=config.SUPPORT_CHANNEL),
         ],
         [
-            InlineKeyboardButton(text="♡ Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅꜱ ♡", callback_data="settings_back_helper"),
-        ],
-        [
-            InlineKeyboardButton(text="☠Sᴏᴜʀᴄᴇ☠", url=config.GITHUB_REPO),
-            InlineKeyboardButton(text="ღ Oᴡɴᴇʀ ღ", user_id=OWNER),
+            InlineKeyboardButton(text="ʜᴇʟᴘ ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="settings_back_helper"),
         ],
     ]
     return buttons
@@ -46,7 +42,7 @@ close_key = InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        text="✯ ᴄʟᴏsᴇ ✯", callback_data="close"
+                        text="ᴄʟᴏsᴇ", callback_data="close"
                     )
                 ]
             ]
